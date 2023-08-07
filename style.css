@@ -95,8 +95,15 @@ a.nav-links:hover{
     min-height: 100vh;
   }
 
-  .left,.right{
+  .left{
     min-width: 100vw;
+  }
+
+  .right{
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   nav{
